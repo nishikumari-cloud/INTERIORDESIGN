@@ -1,0 +1,42 @@
+{
+  "name": "INTERIORDESIGN",
+  "bucket": "",
+  "preset": "javascript",
+  "env": "production",
+  "prefix": "20241128075500",
+  "not-first-run": true,
+  "function": {
+    "id": 32912,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 31656,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 190591
+  },
+  "application": {
+    "id": 1732780577,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1732786408,
+    "name": "INTERIORDESIGN",
+    "domain_name": "i433fw28pn.map.azionedge.net",
+    "url": "https://i433fw28pn.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 327480,
+        "name": "Execute Edge Function",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
