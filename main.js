@@ -18,29 +18,5 @@ function main(event) {
       }
     });
   }
-   
-  return new Response(`
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Hello World</title>
-      <script>
-        ${htmx}
-      </script>
-    </head>
-    <body>
-      <h1>Hello World</h1>
-      <button hx-get="/messages" hx-target="#message">Load Message</button>
-      <p id="message"></p>
-    </body>
-    </html>
-  `, {
-    headers: {
-      'Content-Type': 'text/html; charset=utf-8'
-    }
-  });
-}
 
 export default main;
